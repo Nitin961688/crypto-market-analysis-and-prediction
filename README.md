@@ -32,4 +32,18 @@ crypto-market-analysis-and-prediction/
 ├── README.md # Project overview
 └── .gitignore # Ignore unwanted files
 
+
+---
+
+## 📊 Datasets
+
+- **Historical Market Data**  
+     File: `data/historical_data.csv`  
+     [Download Historical Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=drive_link)  
+
+- **Fear & Greed Index**  
+     File: `data/fear_greed_index.csv`  
+     [Download Fear & Greed Index Data](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=drive_link)
+If datasets are too large, provide external download links.
+
    
