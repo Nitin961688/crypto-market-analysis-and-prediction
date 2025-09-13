@@ -8,7 +8,7 @@
 
 
 ##  Repository Structure
-
+```text
 crypto-market-analysis-and-prediction/
 │
 ├── data/
