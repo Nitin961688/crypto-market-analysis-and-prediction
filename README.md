@@ -18,13 +18,14 @@
      [Download Fear & Greed Index Data](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=drive_link)
 If datasets are too large, provide external download links.
 
-Load Datasets in Python
-import pandas as pd
+
 # Direct Google Drive links (converted to 'uc?id=' format)
 hist_url = "https://drive.google.com/uc?id=1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs"
 fear_url = "https://drive.google.com/uc?id=1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf"
 
 # Load CSVs into pandas
+Load Datasets in Python
+import pandas as pd
 historical_data = pd.read_csv(hist_url)
 fear_greed = pd.read_csv(fear_url)
 
