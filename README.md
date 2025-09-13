@@ -46,4 +46,9 @@ crypto-market-analysis-and-prediction/
      [Download Fear & Greed Index Data](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=drive_link)
 If datasets are too large, provide external download links.
 
+🚀 Installation
+git clone https://github.com/your-username/crypto-market-analysis-and-prediction.git
+cd crypto-market-analysis-and-prediction
+pip install -r requirements.txt
+
    
