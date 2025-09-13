@@ -31,6 +31,7 @@ crypto-market-analysis-and-prediction/
 ├── requirements.txt # Python dependencies
 ├── README.md # Project overview
 └── .gitignore # Ignore unwanted files
+```text
 
 
 ---
