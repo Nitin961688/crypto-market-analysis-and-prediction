@@ -34,8 +34,7 @@ crypto-market-analysis-and-prediction/
 
 
 ---
-
-## 📊 Datasets
+# Datasets
 
 - **Historical Market Data**  
      File: `data/historical_data.csv`  
@@ -46,7 +45,7 @@ crypto-market-analysis-and-prediction/
      [Download Fear & Greed Index Data](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=drive_link)
 If datasets are too large, provide external download links.
 
-🔽 Load Datasets in Python
+Load Datasets in Python
 import pandas as pd
 
 # Direct Google Drive links (converted to 'uc?id=' format)
