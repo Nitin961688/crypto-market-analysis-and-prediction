@@ -24,20 +24,20 @@ hist_url = "https://drive.google.com/uc?id=1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs"
 fear_url = "https://drive.google.com/uc?id=1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf"
 
 # Load CSVs into pandas
-Load Datasets in Python
-import pandas as pd
-historical_data = pd.read_csv(hist_url)
-fear_greed = pd.read_csv(fear_url)
+-Load Datasets in Python
+-import pandas as pd
+-historical_data = pd.read_csv(hist_url)
+-fear_greed = pd.read_csv(fear_url)
 
-print("Historical Data Shape:", historical_data.shape)
-print("Fear & Greed Data Shape:", fear_greed.shape)
+-print("Historical Data Shape:", historical_data.shape)
+-print("Fear & Greed Data Shape:", fear_greed.shape)
 
-##🚀 Installation
+# Installation
 git clone https://github.com/your-username/crypto-market-analysis-and-prediction.git
 cd crypto-market-analysis-and-prediction
 pip install -r requirements.txt
 
-##⚡ Usage
+# Usage
 
 Run the Jupyter Notebook:
 
