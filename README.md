@@ -23,14 +23,7 @@ If datasets are too large, provide external download links.
 hist_url = "https://drive.google.com/uc?id=1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs"
 fear_url = "https://drive.google.com/uc?id=1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf"
 
-# Load CSVs into pandas
--Load Datasets in Python
--import pandas as pd
--historical_data = pd.read_csv(hist_url)
--fear_greed = pd.read_csv(fear_url)
 
--print("Historical Data Shape:", historical_data.shape)
--print("Fear & Greed Data Shape:", fear_greed.shape)
 
 # Installation
 git clone https://github.com/your-username/crypto-market-analysis-and-prediction.git
@@ -48,6 +41,16 @@ Or execute individual Python scripts:
 python src/data_preprocessing.py
 python src/eda.py
 python src/modeling.py
+
+# Load CSVs into pandas
+```text
+Load Datasets in Python
+import pandas as pd
+historical_data = pd.read_csv(hist_url)
+fear_greed = pd.read_csv(fear_url)
+
+print("Historical Data Shape:", historical_data.shape)
+print("Fear & Greed Data Shape:", fear_greed.shape)
 
 
 ##  Repository Structure
