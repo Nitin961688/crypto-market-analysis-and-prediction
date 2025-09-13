@@ -60,9 +60,21 @@ fear_greed = pd.read_csv(fear_url)
 print("Historical Data Shape:", historical_data.shape)
 print("Fear & Greed Data Shape:", fear_greed.shape)
 
-🚀 Installation
+##🚀 Installation
 git clone https://github.com/your-username/crypto-market-analysis-and-prediction.git
 cd crypto-market-analysis-and-prediction
 pip install -r requirements.txt
+
+##⚡ Usage
+
+Run the Jupyter Notebook:
+
+jupyter notebook notebooks/crypto-market-analysis-and-prediction.ipynb
+
+
+Or execute individual Python scripts:
+python src/data_preprocessing.py
+python src/eda.py
+python src/modeling.py
 
    
